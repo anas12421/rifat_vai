@@ -14,8 +14,8 @@ Table Of Content
 2. Navbar CSS Start
 3. Banner CSS Start
 4. About Us CSS Start
-5. Clients CSS Start
-6. Approach CSS Start
+5. Service CSS Start
+6. Support CSS Start
 7. Footer CSS Start
 **/
 
@@ -24,6 +24,7 @@ Table Of Content
   /* Colors */
   --primary_color: #3152e6;
   --secondary_color: #04071c;
+  --support_bg: #ecf5f8;
   --white_color: #ffffff;
   --black_color: #000000;
   --gray_light_color: #ecf4fe;
@@ -155,7 +156,6 @@ body {
   z-index: -1;
 }
 
-
 /* Top Header Css Start */
 #top_header {
   padding-top: 20px;
@@ -205,17 +205,19 @@ body {
 }
 
 /* Banner Css Start */
-#banner{
+#banner {
   padding-top: 420px;
   padding-bottom: 250px;
 }
-.banner_text h1{
+
+.banner_text h1 {
   color: var(--white_color);
   font-family: var(--alice);
   font-weight: 400;
   font-size: var(--h1);
 }
-.banner_text p{
+
+.banner_text p {
   color: var(--white_color);
   font-family: var(--lato);
   font-weight: 420;
@@ -223,21 +225,25 @@ body {
   opacity: .7;
   padding-top: 8px;
 }
+
 /* About Us Css Start */
-#about{
+#about {
   background-color: var(--primary_color);
   padding: 105px 0 150px 0;
 }
-.about_left_content h2{
+
+.about_left_content h2 {
   font-size: var(--h1);
   color: var(--white_color);
   font-family: var(--spectral);
   font-weight: 400;
 }
-.about_left_content h2 span{
-  font-style: italic;
+
+.about_left_content h2 span {
+  font-family: italic;
 }
-.about_right_content p{
+
+.about_right_content p {
   font-size: var(--h5);
   color: var(--white_color);
   font-family: var(--lato);
@@ -245,39 +251,105 @@ body {
   line-height: 25px;
   opacity: .5;
 }
+
 /* Service Css Start */
-#service{
+#service {
   transform: translateY(-36px);
   -webkit-transform: translateY(-36px);
   -moz-transform: translateY(-36px);
   -ms-transform: translateY(-36px);
   -o-transform: translateY(-36px);
 }
-.service_content{
+
+.service_content {
   padding: 25px 10px 0 10px;
   background-color: var(--white_color);
   text-align: center;
 }
-.service_content h4{
+
+.service_content h4 {
   color: var(--black_color);
-  font-style: var(--alice);
+  font-family: var(--alice);
   font-size: var(--h3);
   font-weight: 400;
   padding-top: 30px;
   text-transform: capitalize;
 }
-.service_content p{
+
+.service_content p {
   color: var(--black_color);
-  font-style: var(--lato);
+  font-family: var(--lato);
   font-size: var(--lg);
   font-weight: 400;
   padding-top: 18px;
   line-height: 25px;
 }
-.service_content a{
+
+.service_content a {
   color: var(--primary_color);
-  font-style: var(--lato);
+  font-family: var(--lato);
   font-size: var(--lg);
   font-weight: 400;
   padding-top: 20px;
+}
+
+/* Support start */
+#support {
+  margin-top: 50px;
+  background-color: var(--support_bg);
+}
+.support_header{
+  padding-top: 100px;
+
+}
+
+.support_header_left_content h4,
+.support_header_left_content h3 {
+  font-size: var(--h3);
+  font-family: var(--alice);
+  font-weight: 400;
+  color: var(--black_color);
+
+}
+
+.support_header_left_content h3 {
+  font-size: 72px;
+  text-transform: capitalize;
+}
+
+.support_header_right_content p {
+  color: var(--black_color);
+  font-size: var(--h6);
+  font-family: var(--lato);
+  font-weight: 400;
+}
+
+.support_top_banner {
+  margin-top: 80px;
+}
+
+.support_top_banner_right_content {
+  padding-left: 90px;
+}
+
+.support_top_banner_right_content h3 {
+  color: var(--black_color);
+  font-family: var(--alice);
+  font-weight: 400;
+}
+
+.support_top_banner_right_content p {
+  color: var(--black_color);
+  font-family: var(--lato);
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.support_top_banner_right_content a {
+  color: var(--primary_color);
+  font-family: var(--lato);
+  font-size: var(--lg);
+  font-weight: 400;
+  padding-top: 25px;
+  text-transform: capitalize;
 }
