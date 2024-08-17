@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/**
+    Author: Rifat Bhuiya
+    Author email: hello.rifatbhuiya@gmail.com
+    Version: 0.0.0.1
+**/
+
+/**
+----------------
+Table Of Content
+----------------
+0. Common CSS Start
+1. Top Header CSS Start
+2. Navbar CSS Start
+3. Banner CSS Start
+4. About Us CSS Start
+5. Clients CSS Start
+6. Approach CSS Start
+7. Footer CSS Start
+**/
+
+/* Common CSS Start */
+:root {
+  /* Colors */
+  --primary_color: #3152e6;
+  --secondary_color: #04071c;
+  --white_color: #ffffff;
+  --black_color: #000000;
+  --gray_light_color: #ecf4fe;
+  --off_white_color: #f2f0f1;
+  --highlight_text: #181a3a;
+  --text_color: #2d2d2d;
+
+  /* Round */
+  --round_sm: 5px;
+  --round_md: 15px;
+  --round_lg: 25px;
+  --round_full: 50%;
+
+  /* Typography */
+  --h1: 32px;
+  --h2: 29px;
+  --h3: 26px;
+  --h4: 23px;
+  --h5: 20px;
+  --h6: 18px;
+  --lg: 18px;
+  --bs: 16px;
+  --sm: 14px;
+
+  /* Duration */
+  --transition: all ease-in-out .5s;
+
+  /* Font Family */
+  --alice: "Alice", serif;
+  --libre: "Libre Baskerville", serif;
+  --spectral: "Spectral", serif;
+  --lato: "Lato", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+span,
+address,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: var(--h1);
+  color: var(--highlight_text);
+}
+
+h2 {
+  font-size: var(--h2);
+  color: var(--highlight_text);
+}
+
+h3 {
+  font-size: var(--h3);
+  color: var(--highlight_text);
+}
+
+h4 {
+  font-size: var(--h4);
+  color: var(--highlight_text);
+}
+
+h5 {
+  font-size: var(--h5);
+  color: var(--highlight_text);
+}
+
+h6 {
+  font-size: var(--h6);
+  color: var(--highlight_text);
+}
+
+body {
+  font-size: var(--bs);
+  scroll-behavior: smooth;
+  font-family: var(--sans_serif);
+  font-weight: 500;
+  color: var(--text_color);
+  background-color: var(--white_color);
+}
+
+#hero_banner_backgroound {
+  background: url(../images/banner.jpg) no-repeat center / cover;
+  position: relative;
+  z-index: 1;
+}
+
+#hero_banner_backgroound::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background-color: black;
+  opacity: .6;
+  z-index: -1;
+}
+
+
+/* Top Header Css Start */
+#top_header {
+  padding-top: 20px;
+}
+
+.top_header_main .top_header_contact a {
+  font-size: var(--bs);
+  font-family: var(--lato);
+  color: var(--white_color);
+}
+
+.top_header_main .top_header_contact a i {
+  color: var(--primary_color);
+  margin: 0 7px;
+}
+
+/* Navbar Css Start */
+.navbar_main {
+  width: 100%;
+}
+
+.navbar_main a.logo {
+  font-family: var(--libre);
+  color: var(--white_color) !important;
+  font-weight: 400;
+  font-size: var(--h2);
+}
+
+.navbar_main ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_main ul li a {
+  padding: 0 !important;
+  color: var(--white_color) !important;
+  margin-left: 24px;
+  font-family: var(--lato);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.navbar_main ul li a.special {
+  padding: 7px 19px !important;
+  background-color: var(--primary_color);
+  margin-left: 13px;
+}
+
+/* Banner Css Start */
+#banner{
+  padding-top: 420px;
+  padding-bottom: 250px;
+}
+.banner_text h1{
+  color: var(--white_color);
+  font-family: var(--alice);
+  font-weight: 400;
+  font-size: var(--h1);
+}
+.banner_text p{
+  color: var(--white_color);
+  font-family: var(--lato);
+  font-weight: 420;
+  font-size: var(--bs);
+  opacity: .7;
+  padding-top: 8px;
+}
+/* About Us Css Start */
+#about{
+  background-color: var(--primary_color);
+  padding: 105px 0 150px 0;
+}
+.about_left_content h2{
+  font-size: var(--h1);
+  color: var(--white_color);
+  font-family: var(--spectral);
+  font-weight: 400;
+}
+.about_left_content h2 span{
+  font-style: italic;
+}
+.about_right_content p{
+  font-size: var(--h5);
+  color: var(--white_color);
+  font-family: var(--lato);
+  font-weight: 400;
+  line-height: 25px;
+  opacity: .5;
+}
+/* Service Css Start */
+#service{
+  transform: translateY(-36px);
+  -webkit-transform: translateY(-36px);
+  -moz-transform: translateY(-36px);
+  -ms-transform: translateY(-36px);
+  -o-transform: translateY(-36px);
+}
+.service_content{
+  padding: 25px 10px 0 10px;
+  background-color: var(--white_color);
+  text-align: center;
+}
+.service_content h4{
+  color: var(--black_color);
+  font-style: var(--alice);
+  font-size: var(--h3);
+  font-weight: 400;
+  padding-top: 30px;
+  text-transform: capitalize;
+}
+.service_content p{
+  color: var(--black_color);
+  font-style: var(--lato);
+  font-size: var(--lg);
+  font-weight: 400;
+  padding-top: 18px;
+  line-height: 25px;
+}
+.service_content a{
+  color: var(--primary_color);
+  font-style: var(--lato);
+  font-size: var(--lg);
+  font-weight: 400;
+  padding-top: 20px;
+}
