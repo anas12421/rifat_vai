@@ -1,0 +1,120 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 389.98px) {
+  #top_header {
+    background-color: #3152e6;
+    padding: 10px 0;
+  }
+
+  .top_header_main {
+    justify-content: center !important;
+  }
+
+  .top_header_contact a i {
+    color: white !important;
+  }
+
+  .navbar_main {
+    background-color: rgba(0, 0, 0, 0.704);
+  }
+
+  .navbar_main .res_btn {
+    font-size: 25px !important;
+  }
+
+  .navbar_main a.logo {
+    font-size: 25px;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: white;
+    border-color: transparent;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar_main ul {
+    align-items: start;
+  }
+
+  .navbar_main ul li a {
+    margin: 10px 0 0 0;
+  }
+
+  .navbar_main ul li a.special {
+    margin: 15px 0 0 0;
+  }
+
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 200px;
+  }
+
+  #about {
+    background-color: var(--primary_color);
+    padding: 70px 0 100px 0;
+    text-align: center;
+  }
+
+  .about_right_content p {
+    margin-top: 15px;
+  }
+
+  .support_header {
+    padding-top: 80px;
+  }
+
+  .support_top_banner_right_content {
+    padding: 30px 0 0 0 !important;
+    text-align: center;
+  }
+
+  .support_top_banner_right_content h3 {
+    font-size: 35px;
+  }
+
+  .testimonial_right_content {
+    text-align: center;
+  }
+
+  .testimonial_right_content h2 {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+
+  #brand img {
+    margin: 25px 0;
+  }
+
+  #strategy {
+    padding-bottom: 80px;
+  }
+
+  #footer {
+    padding-bottom: 40px;
+  }
+
+  .footer_menu {
+    padding-top: 25px;
+  }
+
+  .copyright_content {
+    text-align: center;
+  }
+
+  .copyright_social {
+    display: none;
+  }
+}
