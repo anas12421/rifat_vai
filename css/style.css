@@ -16,7 +16,9 @@ Table Of Content
 4. About Us CSS Start
 5. Service CSS Start
 6. Support CSS Start
-7. Footer CSS Start
+7. Testimonial CSS Start
+8. Strategy CSS Start
+9. Footer CSS Start
 **/
 
 /* Common CSS Start */
@@ -136,6 +138,7 @@ body {
   font-weight: 500;
   color: var(--text_color);
   background-color: var(--white_color);
+  overflow-x: hidden;
 }
 
 #hero_banner_backgroound {
@@ -220,6 +223,18 @@ body {
   padding: 7px 19px !important;
   background-color: var(--primary_color);
   margin-left: 13px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.navbar_main ul li a.special:hover {
+  color: var(--primary_color);
+  border-color: var(--primary_color);
+  background-color: transparent;
 }
 
 /* Banner Css Start */
@@ -501,6 +516,15 @@ body {
   color: var(--white_color);
   text-transform: capitalize;
   margin-right: 18px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.footer_menu ul li a:hover {
+  color: var(--primary_color);
 }
 
 .copyright {
@@ -517,6 +541,20 @@ body {
 .copyright_social i {
   color: var(--white_color);
   font-size: 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.copyright_social i:hover {
+  color: var(--primary_color);
+  transform: translateY(-5px) scale(1.2);
+  -webkit-transform: translateY(-5px) scale(1.2);
+  -moz-transform: translateY(-5px) scale(1.2);
+  -ms-transform: translateY(-5px) scale(1.2);
+  -o-transform: translateY(-5px) scale(1.2);
 }
 
 /* Footer Css End */

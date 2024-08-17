@@ -2,7 +2,7 @@
   #banner {
     padding-top: 210px;
     padding-bottom: 200px;
-}
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -10,6 +10,7 @@
     background-color: #3152e6;
     padding: 10px 0;
   }
+
   .top_header_contact a i {
     color: white !important;
   }
@@ -101,7 +102,8 @@
   .footer_menu {
     padding-top: 25px;
   }
-  .footer_menu ul{
+
+  .footer_menu ul {
     margin-top: 10px !important;
   }
 
@@ -119,6 +121,7 @@
     background-color: #3152e6;
     padding: 10px 0;
   }
+
   .top_header_contact a i {
     color: white !important;
   }
@@ -210,7 +213,8 @@
   .footer_menu {
     padding-top: 25px;
   }
-  .footer_menu ul{
+
+  .footer_menu ul {
     margin-top: 10px !important;
   }
 
